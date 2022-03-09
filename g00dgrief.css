@@ -25,10 +25,10 @@ p {
 img{
   display: block;
   border: solid;
-  border-width: 15px;
+  border-width: 10px;
   border-color: gray;
   border-radius: 10px;
-margin-right: auto ;
+margin-right: center ;
   margin-left: auto;
   margin: 50px auto;
 
