@@ -1,0 +1,467 @@
+function setup() {
+createCanvas(600, 600);
+}
+function draw() {
+background(177, 188, 25);
+
+noStroke();
+
+fill(224, 172, 156);
+beginShape();
+vertex(200, 450);
+vertex(160, 500);
+vertex(70, 525);
+vertex(50, 600);
+vertex(470, 600);
+vertex(450, 525);
+vertex(340, 500);
+vertex(300, 450);
+vertex(200, 450);
+endShape();//neck and body
+
+fill(224, 172, 156);
+beginShape();
+vertex(91, 331);//1
+vertex(85, 388);//2
+vertex(99, 401);//3
+vertex(112, 396);//4
+vertex(117, 384);//5
+vertex(122, 341);//6
+vertex(122, 274);//7
+vertex(105, 253);//8
+vertex(88, 258);//9
+vertex(76, 281);//10
+vertex(91, 331);//11
+endShape();//ear
+
+fill(153, 174, 169);
+ellipse(97, 381, 35);//plug
+
+fill(241, 189, 173);
+beginShape();
+vertex(111, 193);//1
+vertex(150, 130);//2
+vertex(198, 116);//3
+vertex(267, 115);//4
+vertex(332, 132);//5
+vertex(385, 164);//6
+vertex(391, 195);//7
+vertex(393, 277);//8
+vertex(400, 322);//9
+vertex(398, 392);//10
+vertex(383, 430);//11
+vertex(342, 463);//12
+vertex(265, 489);//13
+vertex(225, 485);//14
+vertex(168, 465);//15
+vertex(121, 407);//16
+vertex(111, 313);//17
+vertex(111, 193);//18
+endShape();//head
+
+fill(254, 254, 254);
+ellipse(175, 300, 60, 30);//left eye
+ellipse(315, 302, 60, 30);//right eye
+
+fill(104, 126, 77);
+ellipse(175, 295, 30, 20);//left iris
+ellipse(315, 297, 30, 20);//right iris
+
+fill(0);
+ellipse(175, 295, 12, 12);//left pupil
+ellipse(315, 297, 12, 12);//right pupil
+
+fill(0);
+beginShape();
+vertex(102, 440);//1
+vertex(93, 400);//2
+vertex(95, 427);//3
+vertex(106, 481);//4
+vertex(107, 494);//5
+vertex(97, 492);//6
+vertex(85, 452);//7
+vertex(82, 460);//8
+vertex(93, 497);//9
+vertex(75, 483);//10
+vertex(68, 458);//11
+vertex(58, 466);//12
+vertex(63, 455);//13
+vertex(58, 437);//14
+vertex(60, 421);//15
+vertex(46, 424);//16
+vertex(47, 410);//17
+vertex(52, 399);//18
+vertex(44, 408);//19
+vertex(34, 403);//20
+vertex(27, 400);//21
+vertex(31, 393);//22
+vertex(43, 384);//23
+vertex(34, 387);//24
+vertex(29, 379);//25
+vertex(44, 371);//26
+vertex(48, 358);//27
+vertex(42, 351);//28
+vertex(31, 357);//29
+vertex(20, 357);//30
+vertex(36, 338);//31
+vertex(39, 330);//32
+vertex(38, 312);//33
+vertex(31, 308);//34
+vertex(33, 332);//35
+vertex(26, 324);//36
+vertex(26, 304);//37
+vertex(28, 278);//38
+vertex(35, 243);//39
+vertex(22, 245);//40
+vertex(49, 203);//41
+vertex(27, 202);//42
+vertex(62, 169);//43
+vertex(80, 144);//44
+vertex(120, 109);//45
+vertex(149, 82);//46
+vertex(211, 79);//47
+vertex(272, 81);//48
+vertex(309, 79);//49
+vertex(377, 106);//50
+vertex(389, 112);//51
+vertex(399, 112);//52
+vertex(423, 126);//53
+vertex(432, 148);//54
+vertex(444, 167);//55
+vertex(449, 193);//56
+vertex(451, 209);//57
+vertex(449, 226);//58
+vertex(452, 238);//59
+vertex(446, 252);//60
+vertex(449, 266);//61
+vertex(457, 278);//62
+vertex(467, 304);//63
+vertex(467, 323);//64
+vertex(464, 341);//65
+vertex(464, 360);//66
+vertex(460, 347);//67
+vertex(445, 369);//68
+vertex(453, 380);//69
+vertex(466, 382);//70
+vertex(439, 386);//71
+vertex(423, 367);//72
+vertex(421, 386);//73
+vertex(422, 421);//74
+vertex(407, 415);//75
+vertex(424, 431);//76
+vertex(419, 443);//77
+vertex(399, 429);//78
+vertex(387, 418);//79
+vertex(384, 447);//80
+vertex(389, 475);//81
+vertex(391, 481);//82
+vertex(381, 478);//83
+vertex(378, 445);//84
+vertex(380, 395);//85
+vertex(381, 381);//86
+vertex(377, 355);//87
+vertex(371, 295);//88
+vertex(362, 278);//89
+vertex(352, 263);//90
+vertex(352, 239);//91
+vertex(353, 228);//92
+vertex(349, 214);//93
+vertex(339, 218);//94
+vertex(330, 211);//95
+vertex(318, 209);//96
+vertex(300, 195);//97
+vertex(292, 182);//98
+vertex(297, 200);//99
+vertex(304, 207);//100
+vertex(284, 208);//101
+vertex(273, 214);//102
+vertex(255, 191);//103
+vertex(261, 206);//104
+vertex(250, 208);//105
+vertex(237, 194);//106
+vertex(243, 207);//107
+vertex(245, 214);//108
+vertex(231, 216);//109
+vertex(224, 200);//110
+vertex(222, 211);//111
+vertex(213, 211);//112
+vertex(211, 203);//113
+vertex(203, 212);//114
+vertex(188, 207);//115
+vertex(178, 195);//116
+vertex(192, 200);//117
+vertex(196, 195);//118
+vertex(189, 179);//119
+vertex(178, 172);//120
+vertex(169, 197);//121
+vertex(163, 213);//122
+vertex(154, 234);//123
+vertex(137, 260);//124
+vertex(113, 273);//125
+vertex(110, 290);//126
+vertex(110, 310);//127
+vertex(107, 339);//128
+vertex(101, 371);//129
+vertex(98, 388);//130
+vertex(101, 440);//131
+vertex(102, 440);//132
+endShape();//hair
+
+fill(208, 192, 128);
+beginShape();
+vertex(225, 270);
+vertex(225, 250);
+vertex(150, 240);
+vertex(130, 255);
+vertex(150, 255);
+vertex(225, 270);
+endShape();//left eyebrow
+
+beginShape();
+vertex(275, 270);
+vertex(275, 250);
+vertex(350, 240);
+vertex(370, 255);
+vertex(350, 255);
+vertex(275, 270);
+endShape();//right eyebrow
+
+fill(207, 130, 114);
+beginShape();
+vertex(235, 300);
+vertex(225, 350);
+vertex(215, 355);
+vertex(220, 365);
+vertex(240, 370);
+vertex(250, 370);
+vertex(270, 365);
+vertex(275, 355);
+vertex(265, 350);
+vertex(260, 300);
+vertex(235, 300);
+endShape();//nose
+
+noFill();
+stroke(149, 149, 149);
+strokeWeight(2);
+beginShape();
+vertex(238, 367);
+vertex(240, 370);
+vertex(242, 373);
+vertex(240, 376);
+vertex(242, 374);
+vertex(243, 374);
+vertex(247, 372);
+vertex(252, 370);
+vertex(254, 367);
+endShape();//nose ring
+
+noStroke();
+
+fill(0);
+beginShape();
+vertex(220, 362);
+vertex(238, 367);
+vertex(235, 362);
+vertex(220, 362);
+endShape();//nostril left
+
+fill(0);
+beginShape();
+vertex(270, 362);
+vertex(252, 367);
+vertex(255, 362);
+vertex(270, 362);
+endShape();//nostril right
+
+fill(132, 54, 52);
+beginShape();
+vertex(202, 412);//1
+vertex(230, 407);//2
+vertex(245, 412);//3
+vertex(260, 407);//4
+vertex(288, 412);//5
+vertex(270, 422);//6
+vertex(255, 427);//7
+vertex(235, 427);//8
+vertex(220, 422);//9
+vertex(202, 412);//10
+endShape();//bottom lip
+
+fill(110, 41, 34);
+beginShape();
+vertex(195, 415);//1
+vertex(230, 400);//2
+vertex(245, 405);//3
+vertex(260, 400);//4
+vertex(295, 415);//5
+vertex(270, 410);//6
+vertex(245, 415);//7
+vertex(220, 410);//8
+vertex(195, 415);//9
+endShape();//top lip
+
+fill(105, 132, 93);
+ellipse(245, 395, 6, 6);//lip piercing
+
+fill(0);
+ellipse(187, 397, 3, 3);//beauty mark
+
+fill(197, 117, 108, 120);
+ellipse(165, 375, 40);//left blush
+
+fill(197, 117, 108, 120);
+ellipse(325, 375, 40);//right blush
+
+fill(0);
+beginShape();
+vertex(118, 288);//1
+vertex(144, 302);//2
+vertex(152, 293);//3
+vertex(160, 287);//4
+vertex(178, 286);//5
+vertex(197, 292);//6
+vertex(205, 297);//7
+vertex(201, 290);//8
+vertex(183, 280);//9
+vertex(168, 278);//10
+vertex(156, 278);//11
+vertex(149, 272);//12
+vertex(150, 280);//13
+vertex(142, 269);//14
+vertex(147, 282);//15
+vertex(141, 279);//16
+vertex(134, 272);//17
+vertex(135, 279);//18
+vertex(138, 285);//19
+vertex(142, 289);//20
+vertex(132, 285);//21
+vertex(122, 275);//22
+vertex(126, 285);//23
+vertex(130, 291);//24
+vertex(118, 288);//25
+endShape();//left lashes n liner
+
+fill(0);
+beginShape();
+vertex(345, 304);//1
+vertex(371, 290);//2
+vertex(360, 293);//3
+vertex(364, 287);//4
+vertex(368, 276);//5
+vertex(357, 287);//6
+vertex(348, 290);//7
+vertex(351, 287);//8
+vertex(355, 281);//9
+vertex(354, 274);//10
+vertex(348, 281);//11
+vertex(342, 284);//12
+vertex(344, 280);//13
+vertex(347, 271);//14
+vertex(339, 282);//15
+vertex(340, 273);//16
+vertex(333, 280);//17
+vertex(321, 281);//18
+vertex(307, 283);//19
+vertex(288, 292);//20
+vertex(284, 299);//21
+vertex(292, 293);//22
+vertex(312, 288);//23
+vertex(329, 289);//24
+vertex(345, 304);//25
+endShape();//right lashes n liner
+
+fill(212, 208, 203);
+beginShape();
+vertex(160, 500);
+vertex(130, 525);
+vertex(40, 600);
+vertex(480, 600);
+vertex(460, 525);
+vertex(340, 500);
+vertex(300, 600);
+vertex(250, 600);
+vertex(200, 600);
+vertex(160, 500);
+endShape();//shirt
+
+fill(87, 65, 41);
+beginShape();
+vertex(160, 500);
+vertex(60, 525);
+vertex(40, 600);
+vertex(480, 600);
+vertex(460, 525);
+vertex(340, 500);
+vertex(340, 600);
+vertex(160, 600);
+vertex(160, 500);
+endShape();//sweater
+
+fill(172, 109, 91, 170);
+beginShape();
+vertex(190, 519);//1
+vertex(211, 529);//2
+vertex(237, 536);//3
+vertex(266, 536);//4
+vertex(294, 529);//5
+vertex(309, 519);//6
+vertex(294, 527);//7
+vertex(266, 534);//8
+vertex(237, 534);//9
+vertex(211, 527);//10
+vertex(190, 519);//11
+endShape();//scar
+
+fill(96, 91, 85, 170);
+beginShape();
+vertex(228, 562);//1
+vertex(232, 567);//2
+vertex(237, 578);//3
+vertex(241, 580);//4
+vertex(246, 580);//5
+vertex(243, 584);//6
+vertex(250, 583);//7
+vertex(245, 587);//8
+vertex(251, 585);//9
+vertex(251, 593);//10
+vertex(245, 592);//11
+vertex(237, 590);//12
+vertex(242, 600);//13
+vertex(263, 600);//14
+vertex(268, 594);//15
+vertex(276, 589);//16
+vertex(280, 581);//17
+vertex(282, 573);//18
+vertex(285, 565);//19
+vertex(278, 571);//20
+vertex(271, 576);//21
+vertex(268, 581);//22
+vertex(264, 587);//23
+vertex(262, 593);//24
+vertex(258, 597);//25
+vertex(256, 593);//26
+vertex(256, 585);//27
+vertex(259, 581);//28
+vertex(254, 583);//29
+vertex(254, 577);//30
+vertex(263, 579);//31
+vertex(260, 574);//32
+vertex(267, 572);//33
+vertex(260, 571);//34
+vertex(265, 569);//35
+vertex(266, 562);//36
+vertex(265, 555);//37
+vertex(269, 544);//38
+vertex(263, 549);//39
+vertex(256, 544);//40
+vertex(251, 547);//41
+vertex(243, 548);//42
+vertex(240, 554);//43
+vertex(233, 557);//44
+vertex(237, 559);//45
+vertex(235, 562);//46
+vertex(228, 562);//47
+endShape();//tattoo
+
+}
