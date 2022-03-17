@@ -11,6 +11,7 @@ function preload() {
   img = loadImage('https://g00dgrief.github.io/images/unrequitedlove1.png');
   img2 = loadImage('https://g00dgrief.github.io/images/cursedk.png');
   img3 = loadImage('https://g00dgrief.github.io/images/cat1.png');
+  img4 = loadImage('https://g00dgrief.github.io/images/cancel.png');
 }
 
 function setup() {
@@ -96,6 +97,9 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
 
   } else if (toolChoice == 'z' || toolChoice == 'Z') { // g places the image we pre-loaded
     image(img3, mouseX-75, mouseY-75);
+     
+  } else if (toolChoice == 'y' || toolChoice == 'Y') { // g places the image we pre-loaded
+    image(img4, mouseX-100, mouseY-100);
   }
  }
  
