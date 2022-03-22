@@ -8,10 +8,16 @@ function preload() {
 // preload() runs once, it may make you wait
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
-  img = loadImage('https://g00dgrief.github.io/images/unrequitedlove1.png');
-  img2 = loadImage('https://g00dgrief.github.io/images/cursedk.png');
-  img3 = loadImage('https://g00dgrief.github.io/images/cat1.png');
-  img4 = loadImage('https://g00dgrief.github.io/images/cancel.png');
+  img = loadImage('https://g00dgrief.github.io/images/cat1.png');
+  img2 = loadImage('https://g00dgrief.github.io/images/cat2.png');
+  img3 = loadImage('https://g00dgrief.github.io/images/cat3-150.png');
+  img4 = loadImage('https://g00dgrief.github.io/images/cat4-200.png');
+  img5 = loadImage('https://g00dgrief.github.io/images/cat5-120.png');
+  img6 = loadImage('https://g00dgrief.github.io/images/cat6-150.png');
+  img7 = loadImage('https://g00dgrief.github.io/images/cat7-200.png');
+  img8 = loadImage('https://g00dgrief.github.io/images/cat8-150.png');
+  img9 = loadImage('https://g00dgrief.github.io/images/cat9-160.png');
+  img0 = loadImage('https://g00dgrief.github.io/images/cat0-160.png');
 }
 
 function setup() {
@@ -37,69 +43,56 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
 
  if (toolChoice == '1' ) {  // first tool
    
-    stroke(0);
-    line(mouseX, mouseY, pmouseX, pmouseY);
+    image(img, mouseX-75, mouseY-75);
+
     
   } else if (toolChoice == '2') { // second tool
 
-    stroke(20);
-    strokeWeight(20);
-    line(mouseX, mouseY, pmouseX, pmouseY);
+    image(img2, mouseX-60, mouseY-60);
+    
+    
+    
   } else if (toolChoice == '3') { // third tool
 
-    stroke(300, 100, 0, 80);
-    strokeWeight(1);
-    line(mouseX, mouseY, pmouseX, pmouseY);
+    image(img3, mouseX-75, mouseY-75);
+
+    
   } else if (toolChoice == '4') {
 
-    stroke(0, 230, 255);
-    strokeWeight(30);
-    line(mouseX, mouseY, pmouseX, pmouseY);
+    image(img4, mouseX-100, mouseY-100);
+
+
   } else if (key == '5') { // this tool calls a function
-    stroke(30, 100, 100);
-    strokeWeight(1);
-    testbox(20, 20, 20);
-    testbox(20, 120, 200);
+
+    image(img5, mouseX-60, mouseY-60);
     
  // make testbox do something!
  //   line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '6') {
 
-    stroke(200, 76, 29);
-    strokeWeight(5);
-    triangle(mouseX, mouseY, 300, 150, pmouseX+300, pmouseY+150);
+ 
+    image(img6, mouseX-75, mouseY-75);
+    
   } else if (toolChoice == '7') {
 
-    fill(100, 25, 140, 40);
-    noStroke();
-    arc(mouseX, mouseY, 180, 150, 0, HALF_PI);
+ 
+    image(img7, mouseX-100, mouseY-100);
+    
   } else if (toolChoice == '8') {
 
-    stroke(0, 230, 50);
-    strokeWeight(1);
-    fill(300, 100, 0, 80);
-    triangle(mouseX, mouseY, pmouseX, pmouseY, 300, 150);
+
+    image(img8, mouseX-75, mouseY-75);
+    
   } else if (toolChoice == '9') {
 
-    stroke(100, 25, 140);
-    strokeWeight(1);
-    fill(300, 100, 0, 40);
-    rect(mouseX, mouseY, 140, 140);
-  } else if (toolChoice == '0') {
-    stroke(0, 0);
-    fill(random(125), random(75), random(125), random(20));
-    ellipse(mouseX, mouseY, pmouseX, pmouseY);
-  } else if (toolChoice == 'g' || toolChoice == 'G') { // g places the image we pre-loaded
-    image(img, mouseX-100, mouseY-100);
+ 
+    image(img9, mouseX-80, mouseY-80);
     
-  } else if (toolChoice == 'j' || toolChoice == 'J') { // g places the image we pre-loaded
-    image(img2, mouseX-60, mouseY-60);
+  } else if (toolChoice == '0') {
 
-  } else if (toolChoice == 'z' || toolChoice == 'Z') { // g places the image we pre-loaded
-    image(img3, mouseX-75, mouseY-75);
+    image(img0, mouseX-80, mouseY-80);
      
-  } else if (toolChoice == 'y' || toolChoice == 'Y') { // g places the image we pre-loaded
-    image(img4, mouseX-100, mouseY-100);
+
   }
  }
  
