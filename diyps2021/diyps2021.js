@@ -8,16 +8,16 @@ function preload() {
 // preload() runs once, it may make you wait
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
-  img = loadImage('https://g00dgrief.github.io/images/cat1.png');
-  img2 = loadImage('https://g00dgrief.github.io/images/cat2.png');
-  img3 = loadImage('https://g00dgrief.github.io/images/cat3-150.png');
-  img4 = loadImage('https://g00dgrief.github.io/images/cat4-200.png');
-  img5 = loadImage('https://g00dgrief.github.io/images/cat5-120.png');
-  img6 = loadImage('https://g00dgrief.github.io/images/cat6-150.png');
-  img7 = loadImage('https://g00dgrief.github.io/images/cat7-200.png');
-  img8 = loadImage('https://g00dgrief.github.io/images/cat8-150.png');
-  img9 = loadImage('https://g00dgrief.github.io/images/cat9-160.png');
-  img0 = loadImage('https://g00dgrief.github.io/images/cat0-160.png');
+  img = loadImage('https://brigallegos.github.io/images/cat1.png');
+  img2 = loadImage('https://brigallegos.github.io/images/cat2.png');
+  img3 = loadImage('https://brigallegos.github.io/images/cat3-150.png');
+  img4 = loadImage('https://brigallegos.github.io/images/cat4-200.png');
+  img5 = loadImage('https://brigallegos.github.io/images/cat5-120.png');
+  img6 = loadImage('https://brigallegos.github.io/images/cat6-150.png');
+  img7 = loadImage('https://brigallegos.github.io/images/cat7-200.png');
+  img8 = loadImage('https://brigallegos.github.io/images/cat8-150.png');
+  img9 = loadImage('https://brigallegos.github.io/images/cat9-160.png');
+  img0 = loadImage('https://brigallegos.github.io/images/cat0-160.png');
 }
 
 function setup() {
